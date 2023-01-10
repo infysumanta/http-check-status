@@ -1,0 +1,26 @@
+{
+  "name": "http-check-status",
+  "version": "1.0.0",
+  "description": "A command line tool for checking the status of an HTTP server",
+  "main": "./lib/cli.js",
+  "bin": {
+    "http-check-status": "./lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infysumanta/http-check-status.git"
+  },
+  "keywords": [],
+  "author": "Sumanta Kabiraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infysumanta/http-check-status/issues"
+  },
+  "homepage": "https://github.com/infysumanta/http-check-status#readme",
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
+}
